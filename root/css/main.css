@@ -1,0 +1,90 @@
+/* font-family: 'Freckle Face', cursive;
+*/
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #42413C;
+    color: #333;
+}
+h1 ,h2 ,h3 ,h5 ,h6 {
+    margin-bottom: 0;
+    font-family: 'Freckle Face', cursive;
+}
+p {
+    margin-bottom: 0;
+    padding-bottom: .7em;
+}
+nav, header, footer {
+    background-color: #7bb8a5;
+}
+.navbar {
+    border-bottom: solid 1px #42413C; 
+    padding: 0 0;
+}
+nav > figure > span {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.navbar-brand {
+    margin-right: 0;
+}
+#navbarNav > ul > li > a {
+    display: block;
+    padding: 1.4em 1em;
+}
+#navbarNav > ul > li > a.active {
+    background-color: #9ed3c2;
+}
+article {
+    background-color: #fff;
+} 
+article h2 {
+    color: #3B8686;
+}
+article p {
+    color: #333;
+}
+aside {
+    background-color: #3B8686;
+    color: #fff;
+}
+header h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+img {
+    max-width: 100%;
+}
+figcaption {
+    font: italic 10px  sans-serif;
+    color: #666;
+    padding: 0 15px;
+    text-align: center;  
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 780px) { 
+    article > figure > figcaption {
+        text-align: right;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
